@@ -1,0 +1,23 @@
+{
+  "name": "locale-editor",
+  "version": "1.0.0",
+  "description": "Locale editor generating JSON files",
+  "author": "Malo Camaret",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.3",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
